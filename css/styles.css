@@ -1,0 +1,167 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://upload.wikimedia.org/wikipedia/commons/5/5f/Free_rippled_glitter_magic_sparkle_water_texture_for_layers_Creative_Commons_%282987042594%29.jpg");
+  background-size: cover;
+  font-family: "Muli", sans-serif;
+}
+
+.icon {
+  height: 80px;
+  width: 80px;
+}
+
+.icon:hover {
+  opacity: 0.5;
+  transition: 0.4s ease-out;
+}
+
+.sound {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+/*  VOLUME SLIDER */
+
+input[type="range"] {
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: white;
+  border-radius: 5px;
+  width: 100%;
+  height: 1px;
+  outline: 0;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+input[type="range"]::-webkit-slider-thumb:active {
+  transform: scale(1);
+}
+input[type="range"]::-webkit-slider-runnable-track {
+}
+input[type="range"]::-moz-range-thumb {
+  background: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+input[type="range"]::-moz-range-thumb:active {
+  transform: scale(1);
+}
+input[type="range"]::-moz-range-track {
+}
+
+.mood-nav {
+  text-align: right;
+  /* background: rgba(0, 0, 0, 0.5); */
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+.about {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+  margin-right: 5px;
+}
+
+.mood-header {
+  display: flex;
+  justify-content: center;
+}
+
+.mood-title {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+.mood-audio {
+  width: 800px;
+  height: 250px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.audio-selection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.sound-button-play {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  right: 50%;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  right: 50%;
+}
+
+.button-container {
+  width: 100vw;
+  display: flex;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  margin: 10px;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  border: 3px solid white;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.about-body {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-left: 220px;
+  margin-top: 40px;
+  margin-right: 200px;
+}
+
+.about-body a {
+  color: white;
+}
